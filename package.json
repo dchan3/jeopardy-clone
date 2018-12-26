@@ -1,0 +1,31 @@
+{
+  "name": "jeopardy-clone",
+  "private": true,
+  "dependencies": {
+    "acorn": "^6.0.4",
+    "babel-loader": "^8.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "forever-agent": "^0.6.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.4.0",
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "underscore": "^1.9.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "webpack -p --progress --profile --hot && node server.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
